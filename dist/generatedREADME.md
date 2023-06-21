@@ -3,7 +3,7 @@
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  This command-line application dynamically generates a professional README file from user's input using the Inquirer package.
+  A command-line app to create a professional README file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,16 +14,16 @@
   * [Questions](#questions)
   
   ## Installation
-  Clone the starter code, run npm init, install inquirer 8.2.4
+  npm init, install inquirer
 
   ## Usage
-  Use the node index.js command to invoke the application. Follow the prompts to answer the questions.
+  node index.js
 
   ## License
-  MIT
+  [MIT](https://choosealicense.com/licenses/MIT)
 
   ## Contributing
-  Please contact me to help contribute.
+  Please contact me.
 
   ## Testing
   None
