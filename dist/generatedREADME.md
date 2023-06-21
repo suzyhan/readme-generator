@@ -3,7 +3,7 @@
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  A command-line app to create a professional README file
+  An app to dynamically create a README file
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,10 +14,10 @@
   * [Questions](#questions)
   
   ## Installation
-  npm init, install inquirer
+  Run npm init, install inquirer
 
   ## Usage
-  node index.js
+  Use node index.js to invoke the app
 
   ## License
   [MIT](https://choosealicense.com/licenses/MIT)

@@ -17,6 +17,10 @@ Clone the [starter code](https://github.com/coding-boot-camp/potential-enigma). 
 ## Usage
 Use the node index.js command to invoke the application. Follow the prompts to answer the questions. Upon completion, you will see a console log displaying your answers to the prompts with a message indicating your README file has been created. Navigate to the 'dist' folder and select the 'generatedREADME' markdown to preview your README file.
 
+## Video
+The following walkthrough video demonstrates the functionality of the README generator and how a user would invoke the application from the command line:
+<iframe src="https://drive.google.com/file/d/1KnBOXdbKgtlJmVycmfYbWMlrs52LmiXl/preview" width="640" height="480"></iframe>
+
 ## License
 None
 
