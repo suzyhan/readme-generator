@@ -26,16 +26,6 @@ const questions = [
         message: "Provide instructions and examples for use."
     },
     {
-        type: "input",
-        name: "screenshot",
-        message: "To add a screenshot, provide the relative filepath of the image to be used."
-    },
-    {
-        type: "input",
-        name: "link",
-        message: "What is the URL of your deployed application?"
-    },
-    {
         type: "checkbox",
         name: "license",
         message: "What is the title of your project?",
@@ -53,7 +43,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "user",
+        name: "github",
         message: "What is your GitHub username?"
     },
     {
@@ -69,17 +59,16 @@ function writeToFile(fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("You can now preview your README file.");
+        console.log("Your README file has been created!");
     });
 };
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer
-    .prompt(questions)
-    .then(function (userInput) {
-        console.log(userInput);
-        writeToFile("README.md", generateMarkdown(userInput));
+    inquirer.prompt(questions)
+    .then(function (answers) {
+        console.log(answers);
+        writeToFile("./dist/generatedREADME.md", generateMarkdown(answers));
     });
 };
 
