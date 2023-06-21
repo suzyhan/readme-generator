@@ -20,6 +20,8 @@ Use the node index.js command to invoke the application. Follow the prompts to a
 ## Video
 The following walkthrough video demonstrates the functionality of the README generator and how a user would invoke the application from the command line:
 
+https://github.com/suzyhan/readme-generator/assets/129558186/31c4121d-e018-4bcd-b4e4-640f6b023903
+
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png" muted="" loop="" autoplay="">
     <source src="assets/README-Generator.mp4" type="video/mp4">
