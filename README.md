@@ -6,7 +6,7 @@ This command-line application dynamically generates a professional README file f
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#License)
+* [License](#license)
 * [Contributing](#contributing)
 * [Testing](#testing)
 * [Questions](#questions)  
@@ -21,7 +21,9 @@ Use the node index.js command to invoke the application. Follow the prompts to a
 The following walkthrough video demonstrates the functionality of the README generator and how a user would invoke the application from the command line:
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1KnBOXdbKgtlJmVycmfYbWMlrs52LmiXl/preview" width="640" height="480"></iframe>
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="assets/README-Generator.mp4" type="video/mp4">
+  </video>
 </figure>
 
 ## License
